@@ -1,0 +1,16 @@
+dim:
+  description: Dims a light by a given percentage.
+  fields:
+    entity_id:
+      description: Name(s) of entities to dim
+      example: "light.kitchen"
+    adjustment_pct:
+      description: Adjustment of dimming, in percentage of full brightness.
+      example: -10
+    minimum_brightness_pct:
+      description: Minimum resulting brightness percentage - default 0
+      example: 0
+    maximum_brightness_pct:
+      description: Maximum resulting brightness percentage - default 100
+      example: 100
+    
